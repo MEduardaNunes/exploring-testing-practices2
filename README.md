@@ -57,6 +57,8 @@ Explicação: O AutoGPT é uma aplicação de IA acessível a todos, com o objet
   <figcaption>Classes mais importantes, com maior quantidade de testes.</figcaption>
 </figure>
 
+
+
 <figure>
   <img src="image-1.png" alt="Classes menos importantes com menos testes">
   <figcaption>Classes menos importantes, com menor quantidade de testes.</figcaption>
