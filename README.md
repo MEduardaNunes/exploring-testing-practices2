@@ -52,17 +52,9 @@ URL TestMiner: `https://andrehora.github.io/testminer/#Significant-Gravitas/Auto
 
 Explicação: O AutoGPT é uma aplicação de IA acessível a todos, com o objetivo principal de desenvolvimento de agentes personalizados para cada usuário. Uma boa prática observada foi a distribuição de testes proporcionalmente à importância da funcionalidade do sistema. Em outras palavras, para classes mais importantes, como agents e experts, mais testes foram implementados, enquanto classes mais simples e menos importantes tiveram menos testes implementados. Podemos observar isso nas figuras abaixo.
 
-<figure>
-  <img src="image.png" alt="Classes mais importantes com mais testes">
-  <figcaption>Classes mais importantes, com maior quantidade de testes.</figcaption>
-</figure>
+<div align="center"> <figure> <img src="image.png" alt="Classes mais importantes com mais testes"> <figcaption>Classes mais importantes, com maior quantidade de testes.</figcaption> </figure> </div>
 
-
-
-<figure>
-  <img src="image-1.png" alt="Classes menos importantes com menos testes">
-  <figcaption>Classes menos importantes, com menor quantidade de testes.</figcaption>
-</figure>
+<div align="center" style="margin-bottom: 40px;"> <figure> <img src="image-1.png" alt="Classes menos importantes com menos testes"> <figcaption>Classes menos importantes, com menor quantidade de testes.</figcaption> </figure> </div>
 
 ### aspire
 
@@ -73,7 +65,4 @@ URL TestMiner: `https://andrehora.github.io/testminer/#microsoft/aspire`
 Explicação: A ferramenta identificou cerca de 1200 arquivos de snapshots e 7800 arquivos relacionados a testes, como podemos observar na figura abaixo. Com isso, aproximadamente 1/6 dos testes são destinados à comparação de resultados atuais com os registros anteriores, o que ajuda a identificar alterações indesejadas no comportamento. Assim, essa prática e seu número significativo nesse repositório, podem proporcionar uma maior confiança no desenvolvedor ao fazer alterações no código e reduzir o risco de regressões.
 
 
-<figure>
-  <img src="image-2.png" alt="Números dos arquivos de testes do repositório aspire">
-  <figcaption>Números dos arquivos de testes do repositório aspire.</figcaption>
-</figure>
+<div align="center" style="margin-bottom: 40px;"> <figure> <img src="image-2.png" alt="Números dos arquivos de testes do repositório aspire"> <figcaption>Números dos arquivos de testes do repositório aspire.</figcaption> </figure> </div>
